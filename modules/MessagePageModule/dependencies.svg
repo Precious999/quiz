@@ -21,46 +21,46 @@
 <polygon fill="#fb8072" stroke="transparent" points="406,-10 406,-30 426,-30 426,-10 406,-10"/>
 <text text-anchor="start" x="429.73" y="-15.4" font-family="Times-12" font-size="14.00"> &#160;Exports</text>
 <g id="clust1" class="cluster">
-<title>cluster_LoginPageModule</title>
-<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="99,-70 99,-195 397,-195 397,-70 99,-70"/>
+<title>cluster_MessagePageModule</title>
+<polygon fill="none" stroke="black" stroke-dasharray="1,5" points="84,-70 84,-195 412,-195 412,-70 84,-70"/>
 </g>
 <g id="clust4" class="cluster">
-<title>cluster_LoginPageModule_imports</title>
-<polygon fill="none" stroke="black" points="207,-78 207,-130 389,-130 389,-78 207,-78"/>
+<title>cluster_MessagePageModule_imports</title>
+<polygon fill="none" stroke="black" points="208,-78 208,-130 404,-130 404,-78 208,-78"/>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_LoginPageModule_declarations</title>
-<polygon fill="none" stroke="black" points="107,-78 107,-130 199,-130 199,-78 107,-78"/>
+<title>cluster_MessagePageModule_declarations</title>
+<polygon fill="none" stroke="black" points="92,-78 92,-130 200,-130 200,-78 92,-78"/>
 </g>
-<!-- LoginPage -->
+<!-- MessagePage -->
 <g id="node1" class="node">
-<title>LoginPage</title>
-<polygon fill="#ffffb3" stroke="black" points="191.16,-122 114.84,-122 114.84,-86 191.16,-86 191.16,-122"/>
-<text text-anchor="middle" x="153" y="-99.8" font-family="Times,serif" font-size="14.00">LoginPage</text>
+<title>MessagePage</title>
+<polygon fill="#ffffb3" stroke="black" points="192.19,-122 99.81,-122 99.81,-86 192.19,-86 192.19,-122"/>
+<text text-anchor="middle" x="146" y="-99.8" font-family="Times,serif" font-size="14.00">MessagePage</text>
 </g>
-<!-- LoginPageModule -->
+<!-- MessagePageModule -->
 <g id="node2" class="node">
-<title>LoginPageModule</title>
-<polygon fill="#8dd3c7" stroke="black" points="292.2,-187 289.2,-191 268.2,-191 265.2,-187 171.8,-187 171.8,-151 292.2,-151 292.2,-187"/>
-<text text-anchor="middle" x="232" y="-164.8" font-family="Times,serif" font-size="14.00">LoginPageModule</text>
+<title>MessagePageModule</title>
+<polygon fill="#8dd3c7" stroke="black" points="300.74,-187 297.74,-191 276.74,-191 273.74,-187 165.26,-187 165.26,-151 300.74,-151 300.74,-187"/>
+<text text-anchor="middle" x="233" y="-164.8" font-family="Times,serif" font-size="14.00">MessagePageModule</text>
 </g>
-<!-- LoginPage&#45;&gt;LoginPageModule -->
+<!-- MessagePage&#45;&gt;MessagePageModule -->
 <g id="edge1" class="edge">
-<title>LoginPage&#45;&gt;LoginPageModule</title>
-<path fill="none" stroke="black" d="M181.61,-122.11C181.61,-122.11 181.61,-140.99 181.61,-140.99"/>
-<polygon fill="black" stroke="black" points="178.11,-140.99 181.61,-150.99 185.11,-140.99 178.11,-140.99"/>
+<title>MessagePage&#45;&gt;MessagePageModule</title>
+<path fill="none" stroke="black" d="M178.61,-122.11C178.61,-122.11 178.61,-140.99 178.61,-140.99"/>
+<polygon fill="black" stroke="black" points="175.11,-140.99 178.61,-150.99 182.11,-140.99 175.11,-140.99"/>
 </g>
-<!-- LoginPageRoutingModule -->
+<!-- MessagePageRoutingModule -->
 <g id="node3" class="node">
-<title>LoginPageRoutingModule</title>
-<polygon fill="#8dd3c7" stroke="black" points="380.82,-122 377.82,-126 356.82,-126 353.82,-122 215.18,-122 215.18,-86 380.82,-86 380.82,-122"/>
-<text text-anchor="middle" x="298" y="-99.8" font-family="Times,serif" font-size="14.00">LoginPageRoutingModule</text>
+<title>MessagePageRoutingModule</title>
+<polygon fill="#8dd3c7" stroke="black" points="396.36,-122 393.36,-126 372.36,-126 369.36,-122 215.64,-122 215.64,-86 396.36,-86 396.36,-122"/>
+<text text-anchor="middle" x="306" y="-99.8" font-family="Times,serif" font-size="14.00">MessagePageRoutingModule</text>
 </g>
-<!-- LoginPageRoutingModule&#45;&gt;LoginPageModule -->
+<!-- MessagePageRoutingModule&#45;&gt;MessagePageModule -->
 <g id="edge2" class="edge">
-<title>LoginPageRoutingModule&#45;&gt;LoginPageModule</title>
-<path fill="none" stroke="black" d="M253.72,-122.11C253.72,-122.11 253.72,-140.99 253.72,-140.99"/>
-<polygon fill="black" stroke="black" points="250.22,-140.99 253.72,-150.99 257.22,-140.99 250.22,-140.99"/>
+<title>MessagePageRoutingModule&#45;&gt;MessagePageModule</title>
+<path fill="none" stroke="black" d="M258.22,-122.11C258.22,-122.11 258.22,-140.99 258.22,-140.99"/>
+<polygon fill="black" stroke="black" points="254.72,-140.99 258.22,-150.99 261.72,-140.99 254.72,-140.99"/>
 </g>
 </g>
 </svg>

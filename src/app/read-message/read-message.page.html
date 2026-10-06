@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/project-tab/message" text="Read Message"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="message">
+    <ion-card-header>
+      <ion-card-title>{{message.sender}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>{{message.receivingDate | date:'short'}}</p>
+      <p>{{message.content}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,17 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { JobListingPage } from './job-listing.page';
+
+describe('JobListingPage', () => {
+  let component: JobListingPage;
+  let fixture: ComponentFixture<JobListingPage>;
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(JobListingPage);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Job Listing</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let job of jobs">
+        <ion-card button [routerLink]="['/job-overview', job.number]" routerLinkActive="router-link-active" >
+          <ion-card-header>
+            <ion-card-title>{{job.jobTitle}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>{{job.jobType}} ({{job.jobSetup}})</p>
+            <p>{{job.jobSalary}}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="/project-tab/job-listing" text="Job Overview"></ion-back-button>
+  </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="job">
+    <ion-card-header>
+      <ion-card-title>{{job.jobTitle}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>{{job.jobType}} ({{job.jobSetup}})</p>
+      <p>{{job.jobSalary}}</p>
+      <p>{{job.jobDescription}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
